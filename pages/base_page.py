@@ -22,7 +22,6 @@ class BasePage:
             load_event_end = navigation_timing["loadEventEnd"]
             page_load_time = load_event_end - start_time
         else:
-            # Якщо дані погані — fallback на старий метод
             timing = self.driver.execute_script("return window.performance.timing")
             navigation_start = timing["navigationStart"]
             load_event_end = timing["loadEventEnd"]
