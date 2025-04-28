@@ -1,0 +1,40 @@
+git init
+git add .
+git commit -m "Initial project setup"
+ git remote add origin https://github.com/AndriyRudyi/PageSpeedPerfomanceCheck.gitREADME.txt
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+
+.idea/
+
+
+
+
+.DS_Store
+
+
+.pytest_cache/
+
+
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+
+.vscode/
+
+
+*.sqlite3
+*.db
+
